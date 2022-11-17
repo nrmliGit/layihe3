@@ -52,8 +52,8 @@ button {
 
 .button1 {
   position: absolute;
-  left: 1400px;
-  top: 20px;
+  left: 1310px;
+  top: 20px; 
 }
 
 .box {
@@ -106,12 +106,22 @@ h1 {
 input {
   margin-top: 11px;
   margin-left: 14px;
-  width: 200px;
+  width: 220px;
   height: 38px;
   border: none;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
+   outline: none; 
+}
+input::-webkit-outer-spin-button,
+
+input::-webkit-inner-spin-button {
+
+  -webkit-appearance: none;
+
+margin:0;
+
 }
 
 .active2 {
